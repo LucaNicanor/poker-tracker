@@ -1,0 +1,6 @@
+In this workspace, update clubwpt_collector.py so that every single screenshot (both AUTO-captured and MANUALLY captured via F8/F9) clearly displays and logs its exact timestamp. Specifically:
+1. In the console window of run_collector.bat: for every single screenshot captured (whether AUTO deal, AUTO action, or MANUAL F8/F9), print the exact timestamp formatted cleanly, e.g. '[10:52:14 PM] [MANUAL F8 | Table_HL3990] Saved: ...' or '[10:52:20 PM] [AUTO DEAL | Table_HL3990] Saved: ...'.
+2. When run_collector.bat starts up, print a clean summary list of recent screenshots in hands/raw/clubwpt/ with their timestamps and whether they were AUTO or MANUAL.
+3. Also write a continuous log file 'hands/raw/clubwpt/screenshot_log.txt' appending timestamp, capture type (AUTO vs MANUAL F8/F9), table ID, and filename for every single screenshot taken.
+4. Keep the image corner timestamp badge in the bottom-left of every image.
+Ensure all python syntax is clean and verified.

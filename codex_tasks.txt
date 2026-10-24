@@ -1,0 +1,21 @@
+You are Codex running model gpt-6-astra.
+The user requested:
+"all the work done to gpt should be done by gpt please"
+"for the gpt expert anaylze give hime natoehr feature that he records allt he names of the ppl thatare in the SS so that we cna build profiles on them"
+"like make the astra do it"
+"have codex write it"
+"also trell codex to get the most starred plug ins on git related to clean code"
+"grab them all if they are useful"
+
+Please perform the following tasks:
+Task 1:
+Write the complete, clean, production-ready code for `gpt_poker_analyst.py` in the workspace:
+- Implement the feature that records all player names visible in screenshots and table captures to dynamically build and update opponent profiles in `hands/processed/opponents.json`.
+- Each opponent profile must store: platform, table_id, typical_stack_bb, archetype, tendencies, observed_actions, and astra_exploit.
+- The analyst must query GPT-6-Astra (using the local Codex CLI bridge via `codex.exe exec ... -m gpt-6-astra`) to analyze both Hero's play and generate rich exploitative playbooks for each recorded opponent.
+- Ensure the code conforms strictly to Clean Code standards: zero Ruff warnings (no unused variables, no bare exceptions, explicit error handling, full docstrings, PEP 8).
+
+Task 2:
+Provide a report on the most-starred Clean Code tools/plugins on GitHub (e.g., Ruff, Black, Flake8, ESLint, Prettier) and specify how our project can leverage the most useful ones.
+
+Write the code for `gpt_poker_analyst.py` directly into the file.

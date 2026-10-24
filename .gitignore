@@ -1,0 +1,30 @@
+# Personal hand data, screenshots, opponent stats, and analysis logs
+hands/*
+!hands/.gitkeep
+!hands/raw/
+hands/raw/*
+!hands/raw/.gitkeep
+!hands/processed/
+hands/processed/*
+!hands/processed/.gitkeep
+
+# Environment, secrets, and caches
+.env
+.env.*
+*.log
+*.tmp
+*.sqlite
+*.db
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+node_modules/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

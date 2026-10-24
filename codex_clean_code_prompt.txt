@@ -1,0 +1,7 @@
+Research and report the most starred plugins, tools, and repositories on GitHub related to "clean code", automated linting, code formatting, static analysis, and code quality.
+Group them by:
+1. Universal / Multi-language Quality & Static Analysis Plugins (e.g., SonarQube/SonarLint, MegaLinter, Trivy, Semgrep).
+2. Python Clean Code & Linting Ecosystem (e.g., Ruff, Black, Flake8, Pylint).
+3. JavaScript / TypeScript Clean Code Tools (e.g., Prettier, ESLint, Biome, Oxlint).
+4. Top Educational "Clean Code" Repositories (e.g., clean-code-javascript, clean-code-python).
+For each tool, provide its GitHub name, approximate star count, key features, and why high-performing engineering teams use it.

@@ -1,0 +1,8 @@
+{
+  "name": "poker-hand-inbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local archive for exported poker hand histories",
+  "scripts": { "start": "node server.js", "test": "node --test" },
+  "engines": { "node": ">=22" }
+}
